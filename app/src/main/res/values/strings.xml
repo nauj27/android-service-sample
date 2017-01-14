@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Service</string>
+    <string name="notification_title">Notification title</string>
+    <string name="notification_message">This is the notification message</string>
+    <string name="ticker_text">This is the ticker text</string>
+    <string name="start_button">Start</string>
+    <string name="stop_button">Stop</string>
+</resources>
