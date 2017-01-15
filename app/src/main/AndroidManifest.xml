@@ -22,6 +22,8 @@
             android:name=".MyService"
             android:enabled="true"
             android:exported="false" />
+
+        <activity android:name=".BindActivity"></activity>
     </application>
 
 </manifest>
