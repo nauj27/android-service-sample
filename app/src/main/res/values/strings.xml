@@ -7,4 +7,5 @@
     <string name="stop_button">Stop</string>
     <string name="bind_button_off">Bind</string>
     <string name="bind_button_on">Unbind</string>
+    <string name="menu_to_bind">To bind activity</string>
 </resources>

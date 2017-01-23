@@ -18,5 +18,26 @@
         android:layout_alignParentStart="true"
         android:id="@+id/toggleButton"
         android:textOff="@string/bind_button_off"
-        android:textOn="@string/bind_button_on" />
+        android:textOn="@string/bind_button_on"
+        android:checked="false"
+        android:onClick="toggle" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/toggleButton"
+        android:layout_marginStart="14dp"
+        android:id="@+id/button"
+        android:onClick="doWork" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/toggleButton"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
